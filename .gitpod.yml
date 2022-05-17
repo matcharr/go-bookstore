@@ -5,9 +5,6 @@
 image:
   file: .gitpod.Dockerfile
 
-tasks:
-  - init: mysql-server
-
 ports:
   - port: 9010
     onOpen: open-preview
